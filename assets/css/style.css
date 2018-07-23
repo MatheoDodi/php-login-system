@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(135deg, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(135deg, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h2 {
+    font-size: 3.85rem;
+}
+
+h3 {
+    color: black;
+    margin-bottom: 3rem;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginBox {
+    height: 575px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 23rem;
+    background: rgba(255, 255, 255, 0.918);
+    border-radius: 15px;
+    box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.384);
+}
+
+.loginBox a {
+    text-decoration: none;
+    color:  rgb(165, 165, 165);
+}
+
+.loginBox a:hover {
+    color: black;
+}
+
+.loginBox form {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.sbm {
+    font-size: 1rem;
+    color: white;
+    background: rgb(93, 190, 255);
+    border: 1px solid white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.35rem 1.2rem;
+    outline: none;
+    transition: all 0.2s;
+    }
+.sbm:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    }
+
+
+.loginBox form input {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    height: 2.25rem;
+    width: 100%;
+    text-align: center;
+}
